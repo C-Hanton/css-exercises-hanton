@@ -11,6 +11,7 @@ body {
   background: darkmagenta;
   color: white;
   display:flex;
+  padding-left: 16px;
   
 }
 
@@ -30,6 +31,8 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width:200px;
+  padding: 30px;
 }
 
 .content {
@@ -38,9 +41,10 @@ body {
 
 .cards {
   display:flex;
-  flex-direction:row;
+  justify-content: space-around;
+  margin:20px;
   flex-wrap:wrap;
-
+  padding:20px;
 }
 
 .header-text {
@@ -51,4 +55,18 @@ body {
 
 div {
   display:flex;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+}
+
+li {
+  text-decoration:none;
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
 }
