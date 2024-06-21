@@ -24,3 +24,30 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.header {
+  display:flex;
+  justify-content:space-between;
+}
+
+.left-links {
+  display:flex;
+  
+}
+
+.right-links {
+  display:flex;
+  padding-inline-end: 40px;
+}
+
+li {
+  list-style: none;
+  padding:10px;
+}
+
+a {
+  text-decoration:none;
+  color:gray
+}
+
+
