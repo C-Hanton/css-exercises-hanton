@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display:flex;
+  flex-direction:column;
 }
 
 img {
@@ -64,3 +66,12 @@ a {
 button {
   padding: 10px;
 }
+
+div.footer {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  background-color:lightgray;
+  margin-top:auto;
+}
+
