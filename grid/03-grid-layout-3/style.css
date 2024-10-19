@@ -133,3 +133,9 @@
   display:grid;
   gap: 50px;
 }
+
+.nav ul {
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: 1fr 1fr 1fr;
+}
